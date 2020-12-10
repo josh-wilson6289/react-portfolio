@@ -1,0 +1,14 @@
+footer {
+  padding-top: 75px;
+}
+
+footer ul {
+  float: none;
+  margin: 0 auto;
+  display: inline;
+  text-align: center;
+}
+
+footer li {
+  padding-left: 8px;
+}
