@@ -1,8 +1,10 @@
 import React from "react";
-import Row from "../Row/Row";
+// import "./style.css";
+
 
 
 function PortfolioPiece(props) {
+  
   return(
     <div className="row">
       <div className="col-md-6">
