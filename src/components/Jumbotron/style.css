@@ -1,0 +1,16 @@
+.jumbotron {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('../../Assets/dust_scratches.jpg');
+  margin-bottom: 50px;
+}
+
+
+#pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
+}
