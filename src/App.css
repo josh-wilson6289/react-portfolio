@@ -1,38 +1,160 @@
-.App {
+/* Global Styling */
+* {
+  text-decoration-color: #3d3d3f;
+}
+
+body {
+  background-image: url('./Assets/dust_scratches.jpg');
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p {
+  text-align: left;
+}
+
+.navigation {
+  margin-bottom: 100px;
+}
+
+/* Index.html Styling */
+
+.jumbotron {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('./Assets/dust_scratches.jpg');
+  margin-bottom: 50px;
+}
+
+
+#pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('./Assets/dust_scratches.jpg');
+}
+
+.card-header {
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('./Assets/dust_scratches.jpg');
+}
+
+.list-group-item {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('./Assets/dust_scratches.jpg');
+}
+
+.skills {
+margin-bottom: 150px;
+}
+
+/* Portfolio.html Styling */
+
+.portfolio img {
+  height: 300px;
+  width: 540px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding-bottom: 10px;
+}
+
+.btn-right {
+  float: right;
+}
+
+#readme-btn {
+  position: absolute;
+  left: 40%;
+}
+
+.project-description {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.portfolio-button {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  display: none;   
+}
+
+/* .portfolio-padding {
+  padding-bottom: 150px;
+} */
+
+.border {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border: solid black;
+}
+/* Contact.html Styling */
+
+.contact {
+  margin-bottom: 150px;
+}
+
+/* Footer Styling */
+footer {
+  padding-top: 75px;
+}
+
+footer ul {
+  float: none;
+  margin: 0 auto;
+  display: inline;
+  text-align: center;
+}
+
+footer li {
+  padding-left: 8px;
+}
+
+/* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
+
+@media screen and (max-width: 1366px) {
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 1366px) {
+  .portfolio img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   }
 }
