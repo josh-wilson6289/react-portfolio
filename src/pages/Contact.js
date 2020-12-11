@@ -11,8 +11,6 @@ function Contact() {
       </div>
     </div>
 
-
-
     <div className="container">
       <div className="row">
         <div className="col-md-12">

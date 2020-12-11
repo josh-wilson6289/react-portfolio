@@ -9,7 +9,7 @@ function Jumbotron() {
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <img id="pic" src="../../Assets/bio_pic.JPG" alt="Photo of Josh Wilson"></img>
+              <img id="pic" src="/react-portfolio/Assets/bio_pic.JPG" alt="Photo of Josh Wilson"></img>
             </div>
             <div className="col-md-9">
               <h1 className="display-8">Hello, my name is Josh Wilson.</h1>

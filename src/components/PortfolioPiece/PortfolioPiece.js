@@ -6,7 +6,6 @@ import React from "react";
 function PortfolioPiece(props) {
   
   return(
-    <div className="row">
       <div className="col-md-6">
         <h2>{props.title}</h2>
         <img className="portfolio-image" src={props.image} alt={props.alt}></img>
@@ -17,7 +16,6 @@ function PortfolioPiece(props) {
         target="_blank" role="button">Deployed Site</a>
         <div className="portfolio-padding"></div>
       </div>
-    </div>
   );
 }
 

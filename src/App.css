@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url('./Assets/dust_scratches.jpg');
+  background-image: url('/react-portfolio/Assets/dust_scratches.jpg');
 }
 
 h1 {
@@ -30,7 +30,7 @@ p {
   border-width: 3px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./Assets/dust_scratches.jpg');
+  background-image: url('/react-portfolio/Assets/dust_scratches.jpg');
   margin-bottom: 50px;
 }
 
@@ -52,7 +52,7 @@ p {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./Assets/dust_scratches.jpg');
+  background-image: url('/react-portfolio/Assets/dust_scratches.jpg');
 }
 
 .card-header {
@@ -61,7 +61,7 @@ p {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./Assets/dust_scratches.jpg');
+  background-image: url('/react-portfolio/Assets/dust_scratches.jpg');
 }
 
 .list-group-item {
@@ -69,7 +69,7 @@ p {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./Assets/dust_scratches.jpg');
+  background-image: url('/react-portfolio/Assets/dust_scratches.jpg');
 }
 
 .skills {
