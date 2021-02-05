@@ -19,7 +19,7 @@ function Jumbotron() {
                 I graduated from the University of Texas Coding Bootcamp, and bring over a decade of experience as an Audio Engineer
                 for film, commercials, and TV.  
                 Apologies for any of the commercials I mixed that may have annoyed you over the years.
-                In my spare time, I enjoy homebrewing and playing hockey.
+                In my spare time, I enjoy homebrewing, playing hockey, and adopting way too many pets.
               </p>
             </div>
           </div>
