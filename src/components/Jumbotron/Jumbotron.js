@@ -13,9 +13,14 @@ function Jumbotron() {
             </div>
             <div className="col-md-9">
               <h1 className="display-8">Hello, my name is Josh Wilson.</h1>
-              <p className="lead">I'm currently studying to become a full-stack web developer at the UT Austin Coding
-                Bootcamp. My previous career was in audio engineering for commercials and film. In my spare time, I
-                enjoy homebrewing and playing hockey.</p>
+              <p className="lead">
+                I'm a self-motivated full-stack web developer with proficiency in Javascript, HTML, and CSS.
+                One of my greatest strengths is my willingness to adapt and work with a team, while learning new skills quickly to accomplish the task at hand.
+                I graduated from the University of Texas Coding Bootcamp, and bring over a decade of experience as an Audio Engineer
+                for film, commercials, and TV.  
+                Apologies for any of the commercials I mixed that may have annoyed you over the years.
+                In my spare time, I enjoy homebrewing and playing hockey.
+              </p>
             </div>
           </div>
         </div>
