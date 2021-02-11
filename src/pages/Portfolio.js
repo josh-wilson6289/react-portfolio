@@ -15,8 +15,8 @@ function Portfolio() {
               alt="inBloom App Logo" 
               description="inBloom is here to take the stress away from plant care, so you can enjoy the fruits of your labor.  This full-stack web app allows users to add any plant in the world to their virtual garden."
               technologies="Node, Express, React, Bootstrap, Sequelize, MySQL, ScrollTrigger, GSAP, Trefle API, Google Authentication, Debounce Hook, Adobe Illustrator"
-              github="https://github.com/Sakiskid/Note-Wall"
-              deployed="https://off-your-chest.herokuapp.com">
+              github="https://https://github.com/ashlinhanson/inBloom"
+              deployed="https://in-bloom.herokuapp.com">
               </PortfolioPiece>
               </div>
 
