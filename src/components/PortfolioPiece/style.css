@@ -55,4 +55,10 @@
   border-color: #475058;
 }
 
+.lead {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: larger;
+}
 
