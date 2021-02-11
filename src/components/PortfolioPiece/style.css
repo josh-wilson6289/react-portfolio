@@ -50,15 +50,9 @@
 
 #portfolio-piece {
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   border-radius: 5px;
   border-color: #475058;
 }
 
-.lead {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  font-size: larger;
-}
 
