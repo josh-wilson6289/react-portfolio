@@ -1,47 +1,21 @@
 import React from "react";
+import "../App.css";
 
 function Contact() {
   return (
   <main className="contact">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <h1>Contact</h1>
-        </div>
-      </div>
+<div className="jumbotron" id="contact-jumbotron">
+  <h1 className="display-4">Thanks for stopping by!</h1>
+  <p className="lead">Let's get in touch.</p>
+  <hr className="my-4"></hr>
+  <br></br>
+  <div className="row contact-info">
+  <p>Email: joshua.wilson6289@gmail.com</p>
     </div>
-
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <form action="mailto:#" method="POST" enctype="text/plain">
-            <div className="form-group">
-              <label for="exampleFormControlTextarea1">Name</label>
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-            </div>
-
-            <div className="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
-            </div>
-
-            <div className="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea2" name="message" rows="3"></textarea>
-            </div>
-            <div className="submit">
-              <div className="row">
-                <div className="col-md-12">
-                  <input className="btn btn-dark float-right" type="submit" value="Send"></input>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-
-
+    <div className="row contact-info">
+  <p>Phone: (978) 979-4214</p>
     </div>
+</div>
   </main>
   );
 }
