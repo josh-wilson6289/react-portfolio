@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function Footer(){
   return(
@@ -16,7 +16,7 @@ function Footer(){
           <a className="nav-link" href="https://github.com/josh-wilson6289" target="_blank">GitHub</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="./Assets/Sample Resume.pdf" target="_blank">Resume</a>
+          <a className="nav-link" href="/react-portfolio/Assets/Josh_Wilson_Resume.pdf" target="_blank">Resume</a>
         </li>
       </ul>
     </nav>
