@@ -1,5 +1,5 @@
 import React from "react";
-// import "./style.css";
+import "../../App.css";
  
 
 function Jumbotron() {
@@ -21,7 +21,14 @@ function Jumbotron() {
                 Apologies for any of the commercials I mixed that may have annoyed you over the years.
                 In my spare time, I enjoy homebrewing, playing hockey, and adopting way too many pets.
               </p>
+                <p className="center lead" id="tech">Technologies Used</p>
+                <p className="lead" id="smaller-text">  
+                JavaScript, ES6, React, Node, Express, 
+                MongoDB, Mongoose, MySQL, Sequelize, HTML5, CSS3, Bootstrap, 
+                Semantic-UI, jQuery, RESTful APIs, GIT, GitHub, Heroku
+              </p>
             </div>
+           
           </div>
         </div>
       </div>

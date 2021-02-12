@@ -10,9 +10,6 @@ function Footer(){
           <a className="nav-link" href="https://www.linkedin.com/in/joshwilsonsound/" target="_blank">LinkedIn</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://vimeo.com/joshwilsonsound" target="_blank">Vimeo</a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="https://github.com/josh-wilson6289" target="_blank">GitHub</a>
         </li>
         <li className="nav-item">

@@ -150,6 +150,14 @@ footer li {
   text-align: center;
 }
 
+#smaller-text {
+  font-size: medium !important;
+}
+
+#tech {
+  font-weight: 400;
+}
+
 /* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
 
 @media screen and (max-width: 1366px) {
