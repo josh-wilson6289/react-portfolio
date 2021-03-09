@@ -8,6 +8,18 @@ function Portfolio() {
       <main className="portfolio">
         <div className="container">
            
+        <div className="row">
+              <PortfolioPiece
+              title="Texas Ball Hockey Stats" 
+              image="/react-portfolio/Assets/tbh.jpg" 
+              alt="Texas Ball Hockey" 
+              description="A React website built to display player stats for an Austin-based ball hockey league."
+              technologies="React, Express, Node, MongoDB, Mongoose, Boostrap, Semantic-UI"
+              github="https://github.com/josh-wilson6289/tbh-stats"
+              deployed="https://tbh-stats.herokuapp.com/">
+              </PortfolioPiece>
+              </div>
+
             <div className="row">
               <PortfolioPiece
               title="inBloom" 
