@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioPiece from "../components/PortfolioPiece/PortfolioPiece";
+import "../App.css";
 
 function Portfolio() {
   return (
