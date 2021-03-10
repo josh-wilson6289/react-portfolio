@@ -13,7 +13,7 @@ function Portfolio() {
               title="Texas Ball Hockey Stats" 
               image="/react-portfolio/Assets/tbh.jpg" 
               alt="Texas Ball Hockey" 
-              description="A React website built to display player stats for an Austin-based ball hockey league."
+              description="A MERN stack website built to display player stats for an Austin-based ball hockey league."
               technologies="React, Express, Node, MongoDB, Mongoose, Boostrap, Semantic-UI"
               github="https://github.com/josh-wilson6289/tbh-stats"
               deployed="https://tbh-stats.herokuapp.com/">
@@ -55,8 +55,20 @@ function Portfolio() {
               deployed= "https://josh-wilson6289.github.io/mars-vacation-homes/">
               </PortfolioPiece>
               </div>
+
+              <div className="row">
+              <PortfolioPiece
+              title="Daily Planner" 
+              image="/react-portfolio/Assets/daily-planner.png" 
+              alt= "Daily Planner"
+              description="An app built to keep the busiest person on track.  This daily planner allows users to enter, delete, and update events throughout the day."
+              technologies="JavaScript, jQuery, Moment.js, Local Storage"
+              github="https://github.com/josh-wilson6289/daily-planner"
+              deployed="https://josh-wilson6289.github.io/daily-planner/">
+              </PortfolioPiece>
+              </div>
           
-            <div className="row">
+            {/* <div className="row">
               <PortfolioPiece
               title="Weather App" 
               image="/react-portfolio/Assets/weather-app.png" 
@@ -66,7 +78,7 @@ function Portfolio() {
               github="https://github.com/josh-wilson6289/weather-app"
               deployed="https://josh-wilson6289.github.io/weather-app/">
               </PortfolioPiece>
-              </div>
+              </div> */}
 
               {/* <div className="row">
               <PortfolioPiece
@@ -85,7 +97,7 @@ function Portfolio() {
               title="Password Generator" 
               image="/react-portfolio/Assets/03-javascript-homework-demo.png" 
               alt= "Password Generator"
-              description="This project creates a randomly generated password given user parameters"
+              description="This project creates a unique, randomly-generated password given user parameters"
               technologies="JavaScript, HTML, CSS"
               github="https://github.com/josh-wilson6289/password-generator"
               deployed="https://josh-wilson6289.github.io/password-generator/">
