@@ -12,3 +12,9 @@ footer ul {
 footer li {
   padding-left: 8px;
 }
+
+.footer-icon {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
