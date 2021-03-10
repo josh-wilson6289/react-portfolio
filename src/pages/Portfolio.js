@@ -55,9 +55,7 @@ function Portfolio() {
               deployed= "https://josh-wilson6289.github.io/mars-vacation-homes/">
               </PortfolioPiece>
               </div>
-            
-            
-            
+          
             <div className="row">
               <PortfolioPiece
               title="Weather App" 
@@ -94,7 +92,7 @@ function Portfolio() {
               </PortfolioPiece>
               </div>
 
-            <div className="row">
+            {/* <div className="row">
               <PortfolioPiece
               title="README Generator"
               image="/react-portfolio/Assets/readme.png" 
@@ -103,7 +101,7 @@ function Portfolio() {
               technologies="Inquirer"
               github="https://github.com/josh-wilson6289/readme-generator">
               </PortfolioPiece>
-            </div>
+            </div> */}
           </div>
       </main>
     </div>
