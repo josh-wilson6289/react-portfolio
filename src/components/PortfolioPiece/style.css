@@ -1,27 +1,29 @@
 
 .portfolio-img {
-  height: 300px;
-  width: 540px;
-  display: block;
+  height: auto;
+  width: auto;
+  border: 1px black;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn {
+  margin-bottom: 10px;
 }
 
 .btn-right {
   float: right;
 }
 
-#readme-btn {
-  position: absolute;
-  left: 40%;
-}
-
 .project-description {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 .portfolio-button {
@@ -45,7 +47,9 @@
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 #portfolio-piece {
@@ -62,3 +66,9 @@
   font-size: larger;
 }
 
+@media (max-width: 768px) {
+  .buttons {
+    max-width: 50% !important;
+    margin-left: 25% !important;
+  }
+}
